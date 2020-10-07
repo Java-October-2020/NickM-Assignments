@@ -3,7 +3,7 @@ public static void main(String[] args){
     StringManipulator manipulator = new StringManipulator();
     String str = manipulator.trimAndConcat("   Personal   ","   Space   ");
     System.out.println(str);
-
+    
     StringManipulator indexornull = new StringManipulator();
     char letter = 'o';
     Integer a = indexornull.getIndexOrNull("Coding", letter);
