@@ -12,12 +12,13 @@ public class Human {
         target.health -= this.strength;
         System.out.println(target.getClass().getCanonicalName() + " health is now: " + health);
     }
-    // public Human(int strength, int intelligence, int stealth, int health){
-    //     this.strength = strength;
-    //     this.intelligence = intelligence;
-    //     this.stealth = stealth;
-    //     this.health = health;
-    // }
+    
+    public Human(int strength, int intelligence, int stealth, int health){
+        this.strength = strength;
+        this.intelligence = intelligence;
+        this.stealth = stealth;
+        this.health = health;
+    }
 
     public int getStrength(){
         return this.strength;
