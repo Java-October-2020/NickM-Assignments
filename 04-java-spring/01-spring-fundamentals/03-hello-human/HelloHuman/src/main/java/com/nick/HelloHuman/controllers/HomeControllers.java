@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HomeControllers {
 	
-	@RequestMapping("/")
+	@RequestMapping("/users")
 	public String welcome() {
 		return "index.jsp";
 	}
 	
-	@RequestMapping("/{username}")
+	@RequestMapping("/users/{username}")
 	public String showName(@PathVariable("username") String userName, Model viewModel) {
 		viewModel.addAttribute("userName", userName);
 		return "greeting.jsp";
