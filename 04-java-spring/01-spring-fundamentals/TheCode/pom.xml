@@ -8,10 +8,10 @@
 		<version>2.3.5.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.nick.Counter</groupId>
-	<artifactId>Counter</artifactId>
+	<groupId>com.nick.TheCode</groupId>
+	<artifactId>TheCode</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Counter</name>
+	<name>TheCode</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -54,6 +54,7 @@
 		    <groupId>javax.servlet</groupId>
 		    <artifactId>jstl</artifactId>
 		</dependency>
+		
 		
 	</dependencies>
 
