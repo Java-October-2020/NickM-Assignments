@@ -37,12 +37,12 @@ public class BooksApi {
         return book;
     }
     
-    @PutMapping("/api/update/{id}")
-    public Book update(@PathVariable("id") Long id, Book updatedBook) {
-        Book book = this.bookService.updateBook(updatedBook);
-        return book;
-    }
-    
+//    @PutMapping("/api/update/{id}")
+//    public Book update(@PathVariable("id") Long id, Book updatedBook) {
+//        Book book = this.bookService.updateBook(updatedBook);
+//        return book;
+//    }
+//    
     @DeleteMapping("/api/books/{id}")
     public void destroy(@PathVariable("id") Long id) {
         this.bookService.destroyBook(id);

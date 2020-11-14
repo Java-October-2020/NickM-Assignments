@@ -47,6 +47,9 @@ public class BookService {
     public Book createBook(Book b) {
         return bookRepository.save(b);
     }
+    public void addBook(Book book) {
+        books.add(book);
+    }
     // retrieves a book
     public Book findBook(Long id) {
         Optional<Book> optionalBook = bookRepository.findById(id);
@@ -56,14 +59,19 @@ public class BookService {
             return null;
         }
     }
+    public void updateBook(int id, Book book) {
+        if (id < books.size()){
+            books.set(id, book);
+        }
+    }
 //    public void updateBook(int id, Book book) {
 //        if (id < books.size()){
 //            books.set(id, book);
 //        }
 //    }
-    public Book updateBook(Book updatedBook) {
-    	return this.bookRepository.save(updatedBook);
-    }
+//    public Book updateBook(Book updatedBook) {
+//    	return this.bookRepository.save(updatedBook);
+//    }
  
 	public void destroyBook(Long id) {
       this.bookRepository.deleteById(id);
