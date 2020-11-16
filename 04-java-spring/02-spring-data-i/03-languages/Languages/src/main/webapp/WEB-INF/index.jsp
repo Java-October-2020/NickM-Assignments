@@ -19,7 +19,7 @@
 	            <th>Name</th>
 	            <th>Creator</th>
 	            <th>Version</th>
-	            <th>action</th>
+	            <th>Action</th>
 	        </tr>
 	    </thead>
 	    <tbody>

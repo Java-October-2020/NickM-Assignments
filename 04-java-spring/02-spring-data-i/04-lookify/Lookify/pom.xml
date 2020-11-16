@@ -5,13 +5,13 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.3.5.RELEASE</version>
+		<version>2.4.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.nick.Languages</groupId>
-	<artifactId>Languages</artifactId>
+	<groupId>com.nick.Lookify</groupId>
+	<artifactId>Lookify</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Languages</name>
+	<name>Lookify</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -39,7 +39,6 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-	
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -68,7 +67,7 @@
                 <groupId>javax.servlet</groupId>
                 <artifactId>jstl</artifactId>
         </dependency>
-			
+		
 		
 	</dependencies>
 
